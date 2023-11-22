@@ -1,0 +1,22 @@
+{
+  "name": "gros-exo",
+  "version": "1.0.0",
+  "description": "exo temperatur",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@codask/weacast": "^1.0.0",
+    "axios": "^1.6.2",
+    "express": "^4.18.2",
+    "express-handlebars": "^5.3.3",
+    "fs": "^0.0.1-security",
+    "hbs": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
